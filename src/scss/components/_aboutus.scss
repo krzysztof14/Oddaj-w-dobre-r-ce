@@ -1,0 +1,54 @@
+
+.aboutUs {
+  display: flex;
+  width: 100%;
+
+  h5 {
+    font-size: 38px;
+    line-height: 55px;
+    margin-top: 185px;
+  }
+}
+
+.image-aboutus {
+  background-image: url(./../../assets/People.jpg);
+  width: 50%;
+  height: 935px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:$black-color;
+  text-align: center;
+  background-color: $silver-color;
+
+
+  p {
+    font-size: 30px;
+    line-height: 55px;
+    max-width: 650px;
+  }
+}
+
+.signature {
+  background-image: url(./../../assets/Signature.svg);
+  width: 210px;
+  height: 150px;
+  align-self: flex-end;
+  margin: 40px 150px 0;
+}
+
+.decora {
+  height: 60px;
+  display: inline-block;
+  margin-top: 20px;
+  background-image: url(./../../assets/Decoration.svg);
+  background-repeat: no-repeat;
+
+
+}

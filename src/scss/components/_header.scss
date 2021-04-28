@@ -1,0 +1,111 @@
+.header-main {
+    height: 100vh;
+    max-width: 100%;
+    font-family: $font-base;
+   
+}
+
+
+
+.header-image {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../../assets/Home-Hero-Image.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-position: -383px;
+}
+
+
+.registry {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    margin-right: 70px;
+    margin-top: 37px;
+    text-decoration: none;
+    padding-left: 30px;
+
+    button {
+        background-color: white;
+        font-size: 18px;
+        border: 2px solid white;
+        padding: 9px 10px;
+
+        &:hover {
+        border: 2px solid $yellow-color;
+        }
+    }
+    
+}
+
+
+.nav-menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+    padding-left: 55px;
+
+    button {
+        background-color: white;
+        font-size: 18px;
+        border: 2px solid white;
+        padding: 9px 10px;
+        margin-top: 15px;
+
+        &:hover {
+            border: 2px solid $silver-color;
+            }
+    }
+}
+
+.text {
+    margin-top: 50px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    
+
+    .first-text {
+        height: 60px;
+        margin-left: 755px;
+        
+        
+    }
+
+    h1 {
+        padding-top: 200px;
+        margin-left: 595px;
+    }
+    
+}
+
+.decoration {
+    height: 60px;
+    display: inline-block;
+    margin-top: 20px;
+    background-image: url(./../../assets/Decoration.svg);
+    background-repeat: no-repeat;
+    margin-left: 750px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 167px;
+    margin-top: 37px;
+    padding-left: 30px;
+    font-size: 28px;
+
+    button {
+        border: 1px solid $silver-color;
+        background-color: white;
+        box-sizing: content-box;
+        padding: 20px 20px;
+        height: 80px;
+        width: 265px;
+        margin-left: 40px;
+    }
+}

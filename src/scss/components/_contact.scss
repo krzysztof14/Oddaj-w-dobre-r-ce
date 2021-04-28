@@ -1,0 +1,92 @@
+.contact {
+    background-image: url(./../../assets/Background-Contact-Form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    // height: 800px;
+  
+  }
+  
+  
+    h1 {
+      font-size: 38px;
+      line-height: 55px;
+      color: $black-color;
+      margin: 145px 0 10px;
+    }
+  
+    form {
+      width: 530px;
+      display: flex;
+      flex-direction: column;
+  
+      input,
+      textarea {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid $black-color;
+      }
+  
+      label {
+        font-weight: 600;
+        color: $black-color;
+        line-height: 85px;
+      }
+  
+      textarea {
+        height: 80px;
+      }
+  
+      button {
+        align-self: flex-end;
+        margin-top: 40px;
+        padding: 5px 35px;
+        background-color: transparent;
+        border: 0.75px solid $silver-color;
+        font-weight: 200;
+        color: #000000;
+        font-size: 18px;
+        line-height: 32px;
+        font-family: $font-base;
+  
+        &:hover {
+          background-color: $black-color;
+        }
+      }
+    }
+  
+  .contact-form {
+    display: flex;
+  
+    input {
+      width: 100%;
+    }
+  
+    div:first-child {
+      margin-right: 15px;
+    }
+  }
+  
+  .fb-inst {
+    display: flex;
+    float: right;
+    justify-content: flex-end;
+    width: 530px;
+    margin-top: 250px;
+  }
+  
+  .fb {
+    background-image: url(./../../assets/Facebook.svg);
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+  
+  }
+  
+  .inst {
+    @extend .fb;
+    background-image: url(./../../assets/Instagram.svg);
+  }
+  
+  
+  

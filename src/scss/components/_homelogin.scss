@@ -1,0 +1,49 @@
+.log {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h1 {
+      font-size: 40px;
+      line-height: 55px;
+      margin: 120px 0 10px;
+    }
+  }
+  
+  .log-form {
+    background-color: $white-color;
+    padding: 0 70px 40px;
+    margin-top: 70px;
+  
+    label {
+      line-height: 85px;
+      color: $black-color;
+    }
+  
+    input {
+      width: 250px;
+      display: block;
+      background-color: $white-color;
+      border: none;
+      border-bottom: 1px solid $black-color;
+    }
+  
+  }
+  
+  .log-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    font-size: 16px;
+  
+  
+    button {
+      padding: 15px;
+      background-color: white;
+      color: $silver-color;
+      border: 0.75px solid $black-color;
+      font-size: 16px;
+  
+    }
+  }
+  
